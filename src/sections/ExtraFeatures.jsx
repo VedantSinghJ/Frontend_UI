@@ -26,7 +26,7 @@ const ExtraFeatures = () => {
 
       <div className="mt-6 w-full max-w-4xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature, index) => (
-          <div key={index} className="flex items-center gap-3 p-4 border rounded-lg shadow-sm bg-white">
+          <div key={index} className="flex items-center gap-3 p-4 border border-blue-200 rounded-lg shadow-lg bg-white backdrop-blur-md">
             <span className="text-xl text-gray-700">{feature.icon}</span>
             <p className="text-gray-800 text-sm">{feature.text}</p>
           </div>
